@@ -1,0 +1,116 @@
+#header-part {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+span{
+    color: dodgerblue;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+#main-container{
+  display: grid;
+  grid: 150px/auto auto auto;
+  column-gap: 30px;
+  margin-bottom: 50px;
+}
+
+
+#deposit-part{
+  background-color: seagreen;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+#withdraw-part{
+  background-color: blueviolet;
+  color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#balance-part{
+  background-color: cornflowerblue;
+  color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.blnc{
+  margin-top: -17px;
+  font-size: 30px;
+}
+
+
+#main-cont2{
+  display: grid;
+  grid: 200px/auto auto;
+  column-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#deposit-main-cont{
+  background-color: hotpink;
+  color: white;
+}
+
+#withdraw-main-cont{
+  background-color: skyblue;
+  color: white;
+  
+}
+
+#deopsit-main {
+  width: 60%;
+  height: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+#withdraw-main {
+  width: 60%;
+  height: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.text{
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+#deposit-btn, #withdraw-btn {
+  
+  margin-left: 20px;
+  margin-top: px;
+  background-color: sienna;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+ #withdraw-btn:hover {
+  background-color: black;
+  color: white;
+}
+ #deposit-btn:hover {
+  background-color: black;
+  color: white;
+}
